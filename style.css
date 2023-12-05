@@ -300,3 +300,46 @@
   button:hover {
     background-color: #133614;
   }
+
+  @media screen and (max-width: 991.98px) {
+    .layar-dalam {
+      width: 90%;
+    }
+    nav .menu ul {
+      display: none;
+      margin-top: 60px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    nav .menu ul li {
+      width: 100%;
+      border-bottom: 1px solid #ccc;
+      background-color: #fff;
+      line-height: 40px;
+    }
+    nav .menu ul li a {
+      color: #333;
+    }
+    .tombol-menu {
+      display: flex;
+    }
+    .blog .area {
+      display: block;
+    }
+    .blog div.area div {
+      width: 100%;
+    }
+    .blog .area .gambar {
+      border-radius: 5px 5px 0px 0px;
+      height: 200px;
+    }
+    .support {
+      display: block;
+    }
+    .support div {
+      width: 100%;
+      padding-bottom: 30px;
+    }
+  }
